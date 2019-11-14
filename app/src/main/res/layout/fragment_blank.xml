@@ -6,10 +6,18 @@
     android:background="#37FF34"
     tools:context=".BlankFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <Button
+        android:id="@+id/fragmentButton"
+        android:text="click"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center|top"/>
+    <ImageView
+        android:visibility="invisible"
+        android:src="@drawable/imetipsoy"
+        android:id="@+id/imageFragment"
+        android:layout_gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="300dp"/>
 
 </FrameLayout>
